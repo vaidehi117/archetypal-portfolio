@@ -48,11 +48,14 @@ export default function ProjectsPage() {
             >
               <h2 style={{ color: '#2563eb', fontWeight: 700, marginBottom: '1rem' }}>Data Visualization Dashboard</h2>
               <p style={{ color: '#444', marginBottom: '1.2rem' }}>
-                An interactive dashboard built with React and Chart.js to visualize complex datasets for actionable insights.
+                This React application visualizes the economic impact of COVID-19 on the U.S. job market and broader economy. Using D3.js, it presents interactive charts to help users understand changes in employment patterns, remote work adoption, and inflation trends during the pandemic.<br /><br />
+                <span style={{ color: '#2563eb', fontWeight: 500 }}>Technologies:</span> React.js, D3.js, CSS/SCSS, Create React App, Git
               </p>
               <a
-                href="#"
+                href="https://github.com/vaidehi117/data-visualization"
                 className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   background: 'linear-gradient(90deg, #6366f1 60%, #2563eb 100%)',
                   color: '#fff',
@@ -78,13 +81,16 @@ export default function ProjectsPage() {
                 marginBottom: '0'
               }}
             >
-              <h2 style={{ color: '#2563eb', fontWeight: 700, marginBottom: '1rem' }}>AI Chatbot (LLM)</h2>
+              <h2 style={{ color: '#2563eb', fontWeight: 700, marginBottom: '1rem' }}>Novel Nest (E-Book Subscription)</h2>
               <p style={{ color: '#444', marginBottom: '1.2rem' }}>
-                A conversational AI chatbot using a large language model, providing instant answers and support for users.
+                Users can sign up to browse a large selection of e-books, organized by genre. By submitting their credit card info, users can subscribe and receive 5 random e-books from that genre.<br /><br />
+                <span style={{ color: '#2563eb', fontWeight: 500 }}>Technologies:</span> Python, Django, JavaScript, HTML/CSS, PostgreSQL, Materialize CSS
               </p>
               <a
-                href="#"
+                href="https://github.com/vaidehi117/project-4-novel-nest"
                 className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   background: 'linear-gradient(90deg, #6366f1 60%, #2563eb 100%)',
                   color: '#fff',
@@ -110,13 +116,16 @@ export default function ProjectsPage() {
                 marginBottom: '0'
               }}
             >
-              <h2 style={{ color: '#2563eb', fontWeight: 700, marginBottom: '1rem' }}>Personal Portfolio Website</h2>
+            <h2 style={{ color: '#2563eb', fontWeight: 700, marginBottom: '1rem' }}>Fakebook Social Platform</h2>
               <p style={{ color: '#444', marginBottom: '1.2rem' }}>
-                A modern, responsive portfolio site built with Next.js, showcasing my skills, projects, and contact info.
+                A full-stack social media platform inspired by Facebook, enabling users to create accounts, post updates, and interact with others in real time.<br /><br />
+                <span style={{ color: '#2563eb', fontWeight: 500 }}>Technologies:</span> Express, Node.js, React, JavaScript, AWS, MongoDB, Mongoose
               </p>
               <a
-                href="#"
+                href="https://github.com/vaidehi117/fakebook-project"
                 className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   background: 'linear-gradient(90deg, #6366f1 60%, #2563eb 100%)',
                   color: '#fff',
@@ -142,13 +151,16 @@ export default function ProjectsPage() {
                 marginBottom: '0'
               }}
             >
-              <h2 style={{ color: '#2563eb', fontWeight: 700, marginBottom: '1rem' }}>Student's Choice Project</h2>
+              <h2 style={{ color: '#2563eb', fontWeight: 700, marginBottom: '1rem' }}>Next.js AI Chatbot</h2>
               <p style={{ color: '#444', marginBottom: '1.2rem' }}>
-                A unique project of my own design, demonstrating creativity, technical skill, and problem-solving ability.
+                An advanced AI chatbot template built with Next.js, featuring seamless navigation, server-side rendering, and dynamic chat interfaces. Supports multiple LLM providers, secure authentication, persistent chat history, and file storage. Easily switch between OpenAI, Anthropic, Cohere, and more.<br /><br />
+                <span style={{ color: '#2563eb', fontWeight: 500 }}>Technologies:</span> Next.js App Router, React Server Components, AI SDK, shadcn/ui, Tailwind CSS, Radix UI, Vercel Postgres, Vercel Blob, NextAuth.js, OpenAI API
               </p>
               <a
-                href="#"
+                href="https://github.com/vaidehi117/nextjs-ai-chatbot"
                 className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   background: 'linear-gradient(90deg, #6366f1 60%, #2563eb 100%)',
                   color: '#fff',

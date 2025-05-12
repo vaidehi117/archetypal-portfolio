@@ -89,6 +89,17 @@ button:hover, .btn:hover {
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
   padding: 2rem;
   margin-bottom: 2rem;
+  transition: 
+    box-shadow 0.25s cubic-bezier(.4,2,.6,1), 
+    transform 0.18s cubic-bezier(.4,2,.6,1),
+    border-color 0.18s;
+}
+
+.card:hover, .card:focus-within {
+  box-shadow: 0 8px 32px rgba(30,58,138,0.18), 0 1.5px 8px rgba(99,102,241,0.10);
+  transform: translateY(-6px) scale(1.025);
+  border-color: #6366f1;
+  z-index: 1;
 }
 
 /* Navbar styles */

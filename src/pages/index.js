@@ -165,65 +165,6 @@ export default function Home() {
               🚨 Accepting <span style={{ color: '#d32f2f', fontWeight: 700 }}>1 new project</span> for June 2025 — <span style={{ color: '#2563eb' }}>Contact me before May 30!</span>
             </p>
           </div>
-
-          <div
-            className="card"
-            style={{
-              marginTop: '2rem',
-              textAlign: 'center',
-              background: 'linear-gradient(135deg, #f8fafc 60%, #e0e7ff 100%)',
-              border: '1px solid #e0e7ff',
-              borderRadius: '14px',
-              boxShadow: '0 4px 24px rgba(30,58,138,0.10)',
-              padding: '2rem 1.5rem 2.2rem 1.5rem',
-              position: 'relative',
-              overflow: 'hidden'
-            }}
-          >
-            <h2
-              style={{
-                fontSize: '2rem',
-                fontWeight: 'bold',
-                color: '#1e3a8a',
-                marginBottom: '1rem',
-                letterSpacing: '0.5px'
-              }}
-            >
-              🎁 Free Resource
-            </h2>
-            <p
-              style={{
-                marginTop: '0.5rem',
-                color: '#444',
-                fontSize: '1.08rem',
-                marginBottom: '1.2rem'
-              }}
-            >
-              Download my free Next.js + Tailwind starter template to kickstart your next project with a modern stack and clean design.
-            </p>
-            <a
-              href="#"
-              className="btn"
-              style={{
-                color: '#fff',
-                background: 'linear-gradient(90deg, #6366f1 60%, #2563eb 100%)',
-                textDecoration: 'none',
-                padding: '0.7em 1.6em',
-                borderRadius: '5px',
-                fontWeight: 600,
-                fontSize: '1rem',
-                boxShadow: '0 1px 6px rgba(99,102,241,0.10)',
-                display: 'inline-block',
-                marginTop: '0.5rem',
-                marginBottom: '1.5rem',
-                border: 'none',
-                transition: 'background 0.2s'
-              }}
-            >
-              Get the free starter template →
-            </a>
-          </div>
-
           {/* Social Media Cards Row */}
           <div className="social-row">
             {/* LinkedIn Card */}
