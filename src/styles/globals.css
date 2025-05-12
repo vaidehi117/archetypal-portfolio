@@ -1,0 +1,124 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles */
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f8f9fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5em;
+}
+
+/* Links */
+a {
+  color: #0070f3;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #0051a8;
+}
+
+/* Layout helpers */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Buttons */
+button, .btn {
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover, .btn:hover {
+  background: #0051a8;
+}
+
+/* Card styles */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Navbar styles */
+.navbar {
+  background: #1e3a8a;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(30,58,138,0.07);
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #a5b4fc;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .container {
+    width: 98%;
+    padding: 1rem 0;
+  }
+  .card {
+    padding: 1rem;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  .nav-link {
+    margin-left: 0;
+    margin-right: 1rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+}
