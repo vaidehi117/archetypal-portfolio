@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Archetypal Portfolio – Vaidehi Patel
 
-## Getting Started
+A modern, responsive portfolio built with Next.js, reflecting the **Hero archetype** and integrating Cialdini's principles of persuasion. This site showcases my skills, projects, certifications, and contact information in a clean, professional layout.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎨 Main & Primary Colors
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Main Color:** Indigo Blue (`#1e3a8a`)
+- **Primary Accent:** Blue (`#2563eb`, `#6366f1`)
+- **Backgrounds:** Soft White (`#f8fafc`), Light Blue (`#e0e7ff`)
+- **Highlight/Alert:** Red (`#c0392b`)
+- **Text:** Dark Gray (`#222`, `#444`)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Technologies Used
 
-## Learn More
+- **Framework:** Next.js (React)
+- **Styling:** Custom CSS (no Tailwind/PostCSS)
+- **Database:** MongoDB (for contact form)
+- **Other:** D3.js, Node.js, Express, Django, PostgreSQL, AWS, Materialize CSS, and more (see project cards)
+- **Deployment:** Vercel (recommended)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Design Requirements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Archetype:** Consistent implementation of the **Hero** archetype (bold, empowering, trustworthy, action-oriented).
+- **Modern UI:** Card-based layout, gradients, and shadow effects for a contemporary look.
+- **Responsive:** Fully responsive for desktop and mobile.
+- **Consistent Styling:** All pages use the same color palette, card design, and typography.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Persuasion Principles (Cialdini)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This portfolio integrates at least 3 of Cialdini's principles:
+
+- **Authority:** Certifications and professional experience are highlighted.
+- **Social Proof:** Project links to GitHub and LinkedIn, showing real-world work and connections.
+- **Scarcity:** Banner indicating limited project availability (e.g., "Accepting 1 new project for June 2025").
+- **Commitment/Consistency:** Clear call-to-action buttons and consistent messaging.
+- **Reciprocity:** Free resources and helpful content (if enabled).
+- **Liking:** Friendly, approachable language and personal branding.
+
+---
+
+## 📁 Sections
+
+- **Landing Page:** Hero introduction, positioning statement, navigation.
+- **About:** Story, skills, education, values, and mission.
+- **Projects:** Four project cards with descriptions and links.
+- **Contact:** Styled contact form with MongoDB integration.
+
+---
+
+## 🛠️ Getting Started
+
+1. Clone the repo and install dependencies:
+   ```bash
+   npm install
+   ```
+2. Add your MongoDB connection string in `.env.local`:
+   ```
+   MONGODB_URI=your_mongodb_connection_string
+   MONGODB_DB=IS-219
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📦 Deployment
+
+Deploy easily on [Vercel](https://vercel.com/) or your preferred platform.
+
+---
+
+## 📬 Contact
+
+For questions or collaboration, use the contact form or email: **vaidehi117v@gmail.com**
+
+---
+
+## License
+
+MIT License
