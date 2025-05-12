@@ -19,32 +19,10 @@ A modern, responsive portfolio built with Next.js, reflecting the **Hero archety
 - **Framework:** Next.js (React)
 - **Styling:** Custom CSS (no Tailwind/PostCSS)
 - **Database:** MongoDB (for contact form)
-- **Other:** D3.js, Node.js, Express, Django, PostgreSQL, AWS, Materialize CSS, and more (see project cards)
-- **Deployment:** Vercel (recommended)
+- **Deployment:** Vercel
 
 ---
 
-## ✨ Design Requirements
-
-- **Archetype:** Consistent implementation of the **Hero** archetype (bold, empowering, trustworthy, action-oriented).
-- **Modern UI:** Card-based layout, gradients, and shadow effects for a contemporary look.
-- **Responsive:** Fully responsive for desktop and mobile.
-- **Consistent Styling:** All pages use the same color palette, card design, and typography.
-
----
-
-## 💡 Persuasion Principles (Cialdini)
-
-This portfolio integrates at least 3 of Cialdini's principles:
-
-- **Authority:** Certifications and professional experience are highlighted.
-- **Social Proof:** Project links to GitHub and LinkedIn, showing real-world work and connections.
-- **Scarcity:** Banner indicating limited project availability (e.g., "Accepting 1 new project for June 2025").
-- **Commitment/Consistency:** Clear call-to-action buttons and consistent messaging.
-- **Reciprocity:** Free resources and helpful content (if enabled).
-- **Liking:** Friendly, approachable language and personal branding.
-
----
 
 ## 📁 Sections
 
