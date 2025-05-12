@@ -55,37 +55,6 @@ This portfolio integrates at least 3 of Cialdini's principles:
 
 ---
 
-## 🛠️ Getting Started
-
-1. Clone the repo and install dependencies:
-   ```bash
-   npm install
-   ```
-2. Add your MongoDB connection string in `.env.local`:
-   ```
-   MONGODB_URI=your_mongodb_connection_string
-   MONGODB_DB=IS-219
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 📦 Deployment
-
-Deploy easily on [Vercel](https://vercel.com/) or your preferred platform.
-
----
-
-## 📬 Contact
-
-For questions or collaboration, use the contact form or email: **vaidehi117v@gmail.com**
-
----
-
 ## License
 
 MIT License
